@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :text => "MIT License" }
 
   spec.platform          = :ios
-  spec.source       = { :git => "https://github.com/AidlabSDK/AidlabSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Aidlab/AidlabSDK-iOS.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '10.0'
   spec.ios.vendored_frameworks = 'AidlabSDK.xcframework' 
 
