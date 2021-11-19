@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <glkView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knz-gu-Sg2" customClass="PlotView" customModule="example" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="o5H-lf-kOm"/>
+                                </constraints>
+                            </glkView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aOD-0C-rh1">
+                                <rect key="frame" x="0.0" y="400" width="414" height="496"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="aOD-0C-rh1" secondAttribute="bottom" id="8GO-1I-Tnr"/>
+                            <constraint firstItem="knz-gu-Sg2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qhn-Ry-BTw"/>
+                            <constraint firstItem="aOD-0C-rh1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YwO-J5-wUu"/>
+                            <constraint firstItem="knz-gu-Sg2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZvT-Yf-lPe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="knz-gu-Sg2" secondAttribute="trailing" id="fr9-NG-ocX"/>
+                            <constraint firstItem="aOD-0C-rh1" firstAttribute="top" secondItem="knz-gu-Sg2" secondAttribute="bottom" id="r8r-6t-vXd"/>
+                            <constraint firstAttribute="trailing" secondItem="aOD-0C-rh1" secondAttribute="trailing" id="sSh-e2-DoZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ecgPlotter" destination="knz-gu-Sg2" id="dE6-tq-6P2"/>
+                        <outlet property="tableView" destination="aOD-0C-rh1" id="g1a-q7-S6j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="56"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
