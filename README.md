@@ -1,3 +1,16 @@
+# Installation
+
+## CocoaPods
+
+Add the following entry to your Podfile:
+
+```rb
+pod 'AidlabSDK'
+```
+
+Then run `pod install`.
+
+Don't forget to `import AidlabSDK` in every file you'd like to use Hero.
 
 # AidlabSDK-iOS
 
