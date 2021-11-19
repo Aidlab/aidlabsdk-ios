@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name              = 'AidlabSDK'
-  spec.version           = '1.0.1'
+  spec.version           = '1.0.2'
   spec.summary           = 'Sample Spec'
   spec.homepage          = 'https://www.aidlab.com'
 
