@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
   spec.name              = 'AidlabSDK'
-  spec.version           = '1.0.2'
-  spec.summary           = 'Sample Spec'
+  spec.version           = '1.0.3'
+  spec.summary           = 'AidlabSDK-iOS'
   spec.homepage          = 'https://www.aidlab.com'
 
   spec.author            = { 'Szymon Gesicki' => 'szymon.gesicki@aidlab.com' }
