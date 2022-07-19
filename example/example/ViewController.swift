@@ -144,5 +144,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func didReceiveMessage(_ aidlab: IAidlab, process: String, message: String) { }
     
     func didDetectUserEvent(_ aidlab: IAidlab, timestamp: UInt64) { }
+    
+    func didReceiveSignalQuality(_ timestamp: UInt64, value: Int32) { }
+    
 }
 
