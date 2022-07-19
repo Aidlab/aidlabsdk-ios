@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AidlabSDK
 @_exported import AidlabSDK
 import CoreBluetooth
@@ -98,12 +98,13 @@ public protocol InternalAidlabDelegate : AnyObject {
   @objc public func didDetectUserEvent(_ timestamp: Swift.UInt64)
   @objc public func didReceiveSoundFeatures(_ values: Swift.UnsafeMutablePointer<Swift.Float>!, size: Swift.Int32)
   @objc public func didReceiveError(_ text: Swift.String)
+  @objc public func didReceiveSignalQuality(_ timestamp: Swift.UInt64, value: Swift.Int32)
   @objc public func didReceivePastECG(_ timestamp: Swift.UInt64, values: Swift.UnsafeMutablePointer<Swift.Float>!, size: Swift.Int32)
   @objc public func didReceivePastRespiration(_ timestamp: Swift.UInt64, values: Swift.UnsafeMutablePointer<Swift.Float>!, size: Swift.Int32)
   @objc public func didReceivePastSkinTemperature(_ timestamp: Swift.UInt64, value: Swift.Float)
   @objc public func didReceivePastHeartRate(_ timestamp: Swift.UInt64, heartRate: Swift.Int32)
   @objc public func syncStateDidChange(_ state: SyncState)
-  @objc public func didReceiveUnsynchronizedSize(_ unsynchronizedSize: Swift.UInt16)
+  @objc public func didReceiveUnsynchronizedSize(_ unsynchronizedSize: Swift.UInt32, syncBytesPerSecond: Swift.Float)
   @objc public func didReceivePastRespirationRate(_ timestamp: Swift.UInt64, value: Swift.UInt32)
   @objc public func didReceivePastActivity(_ timestamp: Swift.UInt64, activity: ActivityType)
   @objc public func didReceivePastSteps(_ timestamp: Swift.UInt64, value: Swift.UInt64)
@@ -118,6 +119,7 @@ public protocol InternalAidlabDelegate : AnyObject {
   @objc public func didReceivePastMagnetometer(_ timestamp: Swift.UInt64, mx: Swift.Float, my: Swift.Float, mz: Swift.Float)
   @objc public func didReceivePastBodyPosition(_ timestamp: Swift.UInt64, bodyPosition: BodyPosition)
   @objc public func didDetectPastUserEvent(_ timestamp: Swift.UInt64)
+  @objc public func didReceivePastSignalQuality(_ timestamp: Swift.UInt64, value: Swift.Int32)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalAidlab {
@@ -141,7 +143,7 @@ public protocol AidlabSynchronizationDelegate : AnyObject {
   func didReceivePastSkinTemperature(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.Float)
   func didReceivePastHeartRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, heartRate: Swift.Int32)
   func didReceivePastHrv(_ aidlab: IAidlab, timestamp: Swift.UInt64, hrv: Swift.Int32)
-  func didReceiveUnsynchronizedSize(_ aidlab: IAidlab, unsynchronizedSize: Swift.UInt16)
+  func didReceiveUnsynchronizedSize(_ aidlab: IAidlab, unsynchronizedSize: Swift.UInt32, syncBytesPerSecond: Swift.Float)
   func didReceivePastRespirationRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.UInt32)
   func didReceivePastActivity(_ aidlab: IAidlab, timestamp: Swift.UInt64, activity: ActivityType)
   func didReceivePastSteps(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.UInt64)
@@ -155,6 +157,7 @@ public protocol AidlabSynchronizationDelegate : AnyObject {
   func didReceivePastPressure(_ aidlab: IAidlab, timestamp: Swift.UInt64, values: [Swift.Int32])
   func didReceivePastSoundFeatures(_ aidlab: IAidlab, values: [Swift.Float])
   func didDetectPastUserEvent(_ aidlab: IAidlab, timestamp: Swift.UInt64)
+  func didReceivePastSignalQuality(_ timestamp: Swift.UInt64, value: Swift.Int32)
 }
 public enum ECGFiltrationMethod {
   case normal
@@ -251,6 +254,7 @@ public protocol AidlabDelegate : AnyObject {
   func didReceiveCommand(_ aidlab: IAidlab)
   func didReceiveMessage(_ aidlab: IAidlab, process: Swift.String, message: Swift.String)
   func didDetectUserEvent(_ aidlab: IAidlab, timestamp: Swift.UInt64)
+  func didReceiveSignalQuality(_ timestamp: Swift.UInt64, value: Swift.Int32)
 }
 public protocol CentralManagerDelegate : AnyObject {
   func disconnect(_ peripheral: CoreBluetooth.CBPeripheral, reason: DisconnectReason)

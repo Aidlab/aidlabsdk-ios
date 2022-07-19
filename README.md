@@ -20,6 +20,6 @@ You can check our [website](http://www.aidlab.com/developer) to get the answers 
 
 # Technical overview
 
-Example was build with Swift 5.5, using Xcode 13 and is created on top of Apple's Core Bluetooth technology.
+Example was build with Swift 5.6, using Xcode 13.3 and is created on top of Apple's Core Bluetooth technology.
 
 More information and detailed documentation can be found on our [website](https://www.aidlab.com/developer/docs/examples/).

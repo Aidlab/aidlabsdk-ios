@@ -38,13 +38,14 @@
 - (void) didDetectUserEvent: (uint64_t) timestamp;
 - (void) didReceiveSoundFeatures: (float*) values size: (int) size;
 - (void) didReceiveError: (NSString*) text;
+- (void) didReceiveSignalQuality: (uint64_t) timestamp value: (int) value;
 // AidlabSynchronizationDelegate
 - (void) didReceivePastECG: (uint64_t) timestamp values: (float*) values size: (int) size;
 - (void) didReceivePastRespiration: (uint64_t) timestamp values: (float*) values size: (int) size;
 - (void) didReceivePastSkinTemperature: (uint64_t) timestamp value: (float) value;
 - (void) didReceivePastHeartRate: (uint64_t) timestamp heartRate: (int) heartRate;
 - (void) syncStateDidChange: (SyncState) syncState;
-- (void) didReceiveUnsynchronizedSize: (uint16_t) unsynchronizedSize;
+- (void) didReceiveUnsynchronizedSize: (uint32_t) unsynchronizedSize syncBytesPerSecond: (float) syncBytesPerSecond;
 - (void) didReceivePastRespirationRate: (uint64_t) timestamp value: (uint32_t) value;
 - (void) didReceivePastActivity: (uint64_t) timestamp activity: (ActivityType) activity;
 - (void) didReceivePastSteps: (uint64_t) timestamp value: (uint64_t) value;
@@ -59,6 +60,7 @@
 - (void) didReceivePastMagnetometer: (uint64_t) timestamp mx: (float) mx my: (float) my mz: (float) mz;
 - (void) didReceivePastBodyPosition: (uint64_t) timestamp bodyPosition: (BodyPosition) bodyPosition;
 - (void) didDetectPastUserEvent: (uint64_t) timestamp;
+- (void) didReceivePastSignalQuality: (uint64_t) timestamp value: (int) value;
 // AidlabUpdateDelegate
 - (void) didReceiveUpdateError: (UpdateError) error;
 - (void) didReceiveUpdateProgress: (uint8_t) progress;

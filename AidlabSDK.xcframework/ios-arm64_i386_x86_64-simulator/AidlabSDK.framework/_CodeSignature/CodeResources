@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AidlabInterop.hpp</key>
 		<data>
-		0x+FcSeuC/IrQySMF/CtihosZU4=
+		Za+EQYYAcIoSBbpmQJhVGwu1rNk=
 		</data>
 		<key>Headers/AidlabSDK-Swift.h</key>
 		<data>
-		IXNdk6aErZDCNxzf4vS9ZPy6DKU=
+		I/XfBbTgr+5vxweS3FDHKJD5I1s=
 		</data>
 		<key>Headers/AidlabSDK.h</key>
 		<data>
@@ -22,79 +22,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ps/DbJa/bhyrGxYQ0cFGxtmGoeY=
+		5YKwm9IR0pAHbiGtOXScJeuq9uI=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OjARgyCUQasYTvC/14IzmuyucTk=
+		z6ztjQIg5UiXGe+CxRbovriDlno=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AHPjNJhx5jA5HHFTz2cbmEVt//A=
+		+rYuiW1TJv3bYgGmyk7jMxVAbsk=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w0mt3LYoRtdOXC02AjPrpfP6+O8=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		OjARgyCUQasYTvC/14IzmuyucTk=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		AHPjNJhx5jA5HHFTz2cbmEVt//A=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		w0mt3LYoRtdOXC02AjPrpfP6+O8=
+		91w0bojhCiNsJaCXgXJeK6clHpg=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Jfw4Zuj4xtkch2VUNbG5IU2vEFE=
+		ZtuwDNzKBITb0bv7JTnJQQ+pZkQ=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Gny7bwjwh9JgwtBZLDpQhs8iIXU=
+		OMb5mJXGVlzdbwnuo6nk/q2euXw=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0aQcrI/kHC+mVhRsYdl5gd/DLQ8=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftdoc</key>
-		<data>
-		Jfw4Zuj4xtkch2VUNbG5IU2vEFE=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftinterface</key>
-		<data>
-		Gny7bwjwh9JgwtBZLDpQhs8iIXU=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftmodule</key>
-		<data>
-		0aQcrI/kHC+mVhRsYdl5gd/DLQ8=
+		+Y35Jsa4qYKn7o5yikZLi8/f8ho=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		o+cYP5UlnRbPZS31x0fVqiqLc7A=
+		HgdeTXKpq2WGc4WbMYmYKFqAdgs=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		E/iCmSkalrvX8Kdc2KqCrFwIjmQ=
+		GmLz1ljdhzgrRwWlcJvFvNmit/0=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JV2Q7wGVIs4e78dYhTaUhFG/VXw=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		o+cYP5UlnRbPZS31x0fVqiqLc7A=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		E/iCmSkalrvX8Kdc2KqCrFwIjmQ=
-		</data>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		JV2Q7wGVIs4e78dYhTaUhFG/VXw=
+		VLyizqbAW5NQrXEDLKe5z6/DrUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,22 +82,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0x+FcSeuC/IrQySMF/CtihosZU4=
+			Za+EQYYAcIoSBbpmQJhVGwu1rNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6JThIE6PylnuTIlj7Ht8+dOPmX7Tt+kXMxcbDCVAn9c=
+			PlRjZLJi4sCGCZx1HXLYNxUpDPdnl9w5iwcR/wCD7SM=
 			</data>
 		</dict>
 		<key>Headers/AidlabSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IXNdk6aErZDCNxzf4vS9ZPy6DKU=
+			I/XfBbTgr+5vxweS3FDHKJD5I1s=
 			</data>
 			<key>hash2</key>
 			<data>
-			7YS4JVXGcmNyVi+Qsn+WY1X6fhG73cZvG4x56ZGybb0=
+			iWK4OGHDc8mezOxD3yQILcIANvMP/4Xr5fOIPy5Qt8o=
 			</data>
 		</dict>
 		<key>Headers/AidlabSDK.h</key>
@@ -151,198 +115,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OjARgyCUQasYTvC/14IzmuyucTk=
+			z6ztjQIg5UiXGe+CxRbovriDlno=
 			</data>
 			<key>hash2</key>
 			<data>
-			euWq8XYczY2haFo7+NKJVzZUgH44wTYP6A/rE43j8WU=
+			p4jb3ZY7Q6aI/8hCbFltCvt9tvo4+2YL5iKGo/VHbIY=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AHPjNJhx5jA5HHFTz2cbmEVt//A=
+			+rYuiW1TJv3bYgGmyk7jMxVAbsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			kEp7xG28ra1PoVuHHd39SP3LGSVftYT63VW8sSSmBRk=
+			hJkqqxswbok1/E5GZzfryN7PS9dOOf1fH1G4aLrQ7D8=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w0mt3LYoRtdOXC02AjPrpfP6+O8=
+			91w0bojhCiNsJaCXgXJeK6clHpg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8A92y72T2JfDlEuEJYHyN33SEEHdU2SocA5xaDMiM+U=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OjARgyCUQasYTvC/14IzmuyucTk=
-			</data>
-			<key>hash2</key>
-			<data>
-			euWq8XYczY2haFo7+NKJVzZUgH44wTYP6A/rE43j8WU=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AHPjNJhx5jA5HHFTz2cbmEVt//A=
-			</data>
-			<key>hash2</key>
-			<data>
-			kEp7xG28ra1PoVuHHd39SP3LGSVftYT63VW8sSSmBRk=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w0mt3LYoRtdOXC02AjPrpfP6+O8=
-			</data>
-			<key>hash2</key>
-			<data>
-			8A92y72T2JfDlEuEJYHyN33SEEHdU2SocA5xaDMiM+U=
+			YCSlcYk8XyZdQmC+7nwUBgJ8R1ivlFmkgj3zGplAvoY=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jfw4Zuj4xtkch2VUNbG5IU2vEFE=
+			ZtuwDNzKBITb0bv7JTnJQQ+pZkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmHnm7rzw/AG1TqOB6dwPxNjgexzd6yiDCXZBXH5CrE=
+			VCB8POxUblCnOQ1SUrocukCoOw6I4u1+9rgbuNESeTI=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gny7bwjwh9JgwtBZLDpQhs8iIXU=
+			OMb5mJXGVlzdbwnuo6nk/q2euXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dLXSGSsVzmwcqWOfcyuyUP81BhWy7wuq0sKZmj6US6c=
+			+3Lr1uTgD295SMW2fn2FM365DuNLQu1UxEoxTPeBXZg=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0aQcrI/kHC+mVhRsYdl5gd/DLQ8=
+			+Y35Jsa4qYKn7o5yikZLi8/f8ho=
 			</data>
 			<key>hash2</key>
 			<data>
-			gwTDewWVjIrvHsY9Q5iIjMYjnYURTY6CqCZdMXAmpfk=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jfw4Zuj4xtkch2VUNbG5IU2vEFE=
-			</data>
-			<key>hash2</key>
-			<data>
-			wmHnm7rzw/AG1TqOB6dwPxNjgexzd6yiDCXZBXH5CrE=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gny7bwjwh9JgwtBZLDpQhs8iIXU=
-			</data>
-			<key>hash2</key>
-			<data>
-			dLXSGSsVzmwcqWOfcyuyUP81BhWy7wuq0sKZmj6US6c=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0aQcrI/kHC+mVhRsYdl5gd/DLQ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			gwTDewWVjIrvHsY9Q5iIjMYjnYURTY6CqCZdMXAmpfk=
+			gOBXiPDRZuL18MUP8aqjXxcW3+G2X7DkU/O0MUcNJYU=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o+cYP5UlnRbPZS31x0fVqiqLc7A=
+			HgdeTXKpq2WGc4WbMYmYKFqAdgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			4EKK/ghDfZtf3G64xZNXCxgaUdYKmVh5tEIp0ulLu2A=
+			6ZRAM/CuduzZwcGKapv/48YaPFUw38TZ0AznfBq1qzk=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E/iCmSkalrvX8Kdc2KqCrFwIjmQ=
+			GmLz1ljdhzgrRwWlcJvFvNmit/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			lB9HYE6iu8UG7AciJv0p57vp1Upp/XyTOu2OVxt2CyI=
+			PemOPAyMz1RNSgfISVf9B1iylLrukZx94fjgF8GMoLQ=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JV2Q7wGVIs4e78dYhTaUhFG/VXw=
+			VLyizqbAW5NQrXEDLKe5z6/DrUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			a6fJkSphvVDpWZ+wrWBnwM3Ppz8eHwH8DgU4V0wUsto=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o+cYP5UlnRbPZS31x0fVqiqLc7A=
-			</data>
-			<key>hash2</key>
-			<data>
-			4EKK/ghDfZtf3G64xZNXCxgaUdYKmVh5tEIp0ulLu2A=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E/iCmSkalrvX8Kdc2KqCrFwIjmQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			lB9HYE6iu8UG7AciJv0p57vp1Upp/XyTOu2OVxt2CyI=
-			</data>
-		</dict>
-		<key>Modules/AidlabSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JV2Q7wGVIs4e78dYhTaUhFG/VXw=
-			</data>
-			<key>hash2</key>
-			<data>
-			a6fJkSphvVDpWZ+wrWBnwM3Ppz8eHwH8DgU4V0wUsto=
+			cj/snECG2gdnljPyoy+wdZWnaofgtMS9znTBX3W1kjk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
