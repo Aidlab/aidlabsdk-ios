@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AidlabInterop.hpp</key>
 		<data>
-		Za+EQYYAcIoSBbpmQJhVGwu1rNk=
+		15c5W6A/EMTegL7UcZzDfF01ZTM=
 		</data>
 		<key>Headers/AidlabSDK-Swift.h</key>
 		<data>
-		I/XfBbTgr+5vxweS3FDHKJD5I1s=
+		VVMZPA1jXEmix4x8INnaIAasH1M=
 		</data>
 		<key>Headers/AidlabSDK.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+rYuiW1TJv3bYgGmyk7jMxVAbsk=
+		Ww1x0Uc8lg4cRIg4MJsxMdwW45c=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		91w0bojhCiNsJaCXgXJeK6clHpg=
+		fTRvdpRCX24kx261elY3uIgUqS4=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OMb5mJXGVlzdbwnuo6nk/q2euXw=
+		5Eqp1+0Nv6Mjqa+njf9oUe0tLlE=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Y35Jsa4qYKn7o5yikZLi8/f8ho=
+		RPIhc0qtUUqYycSpixNNf5uZUkg=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GmLz1ljdhzgrRwWlcJvFvNmit/0=
+		/TpAyA1B/4QBIbU0ODEC/axPWwA=
 		</data>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VLyizqbAW5NQrXEDLKe5z6/DrUU=
+		mzq2OEqlKRmnCgl7ZCyHMmy87Q8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,22 +82,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Za+EQYYAcIoSBbpmQJhVGwu1rNk=
+			15c5W6A/EMTegL7UcZzDfF01ZTM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PlRjZLJi4sCGCZx1HXLYNxUpDPdnl9w5iwcR/wCD7SM=
+			YF1O8pfESW51DebRfWoZ3j0JFT3fEXCHP47ZmkqrE00=
 			</data>
 		</dict>
 		<key>Headers/AidlabSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I/XfBbTgr+5vxweS3FDHKJD5I1s=
+			VVMZPA1jXEmix4x8INnaIAasH1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWK4OGHDc8mezOxD3yQILcIANvMP/4Xr5fOIPy5Qt8o=
+			G0z5brgwMHHHVDdpvf2FLAHAb4AmZVJk+JEWgCG27rk=
 			</data>
 		</dict>
 		<key>Headers/AidlabSDK.h</key>
@@ -126,22 +126,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rYuiW1TJv3bYgGmyk7jMxVAbsk=
+			Ww1x0Uc8lg4cRIg4MJsxMdwW45c=
 			</data>
 			<key>hash2</key>
 			<data>
-			hJkqqxswbok1/E5GZzfryN7PS9dOOf1fH1G4aLrQ7D8=
+			CA/4iZig/K5XyPgQV/sAtXmD6BG3rhCYc1WMgy7EIbk=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			91w0bojhCiNsJaCXgXJeK6clHpg=
+			fTRvdpRCX24kx261elY3uIgUqS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			YCSlcYk8XyZdQmC+7nwUBgJ8R1ivlFmkgj3zGplAvoY=
+			ZqnnjzNGQz8qHHzk3BJkDRqdGfUugXuj+T/spbW8yVc=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -159,22 +159,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OMb5mJXGVlzdbwnuo6nk/q2euXw=
+			5Eqp1+0Nv6Mjqa+njf9oUe0tLlE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+3Lr1uTgD295SMW2fn2FM365DuNLQu1UxEoxTPeBXZg=
+			zoD3oIMwxwj2/CkWA9Kna9BXHJxx7Ve45LMJLWPbtG4=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Y35Jsa4qYKn7o5yikZLi8/f8ho=
+			RPIhc0qtUUqYycSpixNNf5uZUkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gOBXiPDRZuL18MUP8aqjXxcW3+G2X7DkU/O0MUcNJYU=
+			RNKCQhH3S8tEGK303T6S1UqDwZEQ6XJcejV6+r86BJ4=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,22 +192,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GmLz1ljdhzgrRwWlcJvFvNmit/0=
+			/TpAyA1B/4QBIbU0ODEC/axPWwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PemOPAyMz1RNSgfISVf9B1iylLrukZx94fjgF8GMoLQ=
+			1WFIIPikrtra5dN8tML6aLzqscFDDkXcZfoBJMgdYf0=
 			</data>
 		</dict>
 		<key>Modules/AidlabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VLyizqbAW5NQrXEDLKe5z6/DrUU=
+			mzq2OEqlKRmnCgl7ZCyHMmy87Q8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cj/snECG2gdnljPyoy+wdZWnaofgtMS9znTBX3W1kjk=
+			yuJxU1XnkJBGR6cnUJstkLvxWMK0S7HLZ+l0YCFZeCU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

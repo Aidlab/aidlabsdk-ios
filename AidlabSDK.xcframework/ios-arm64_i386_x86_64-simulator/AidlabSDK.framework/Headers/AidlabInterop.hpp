@@ -25,7 +25,7 @@
 - (void) didReceiveOrientation: (uint64_t) timestamp roll: (float) roll pitch: (float) pitch yaw: (float) yaw;
 - (void) didReceiveBodyPosition: (uint64_t) timestamp bodyPosition: (BodyPosition) bodyPosition;
 - (void) didReceiveHeartRate: (uint64_t) timestamp heartRate: (int) heartRate;
-- (void) didReceiveHrv: (uint64_t) timestamp hrv: (int) hrv;
+- (void) didReceiveRr: (uint64_t) timestamp rr: (int) rr;
 - (void) didReceiveRespirationRate: (uint64_t) timestamp value: (uint32_t) value;
 - (void) wearStateDidChange: (WearState) state;
 - (void) didReceiveSoundVolume: (uint64_t) timestamp soundVolume: (uint16_t) soundVolume;
@@ -49,7 +49,7 @@
 - (void) didReceivePastRespirationRate: (uint64_t) timestamp value: (uint32_t) value;
 - (void) didReceivePastActivity: (uint64_t) timestamp activity: (ActivityType) activity;
 - (void) didReceivePastSteps: (uint64_t) timestamp value: (uint64_t) value;
-- (void) didReceivePastHrv: (uint64_t) timestamp hrv: (int) hrv;
+- (void) didReceivePastRr: (uint64_t) timestamp rr: (int) rr;
 - (void) didReceivePastSoundVolume: (uint64_t) timestamp soundVolume: (uint16_t) soundVolume;
 - (void) didReceivePastPressure: (uint64_t) timestamp values: (int32_t*) values size: (int) size;
 - (void) didReceivePastSoundFeatures: (float*) values size: (int) size;

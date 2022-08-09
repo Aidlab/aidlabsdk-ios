@@ -248,7 +248,7 @@ SWIFT_CLASS("_TtC9AidlabSDK6Aidlab")
 - (void)didReceiveOrientation:(uint64_t)timestamp roll:(float)roll pitch:(float)pitch yaw:(float)yaw;
 - (void)didReceiveBodyPosition:(uint64_t)timestamp bodyPosition:(BodyPosition)bodyPosition;
 - (void)didReceiveHeartRate:(uint64_t)timestamp heartRate:(int32_t)heartRate;
-- (void)didReceiveHrv:(uint64_t)timestamp hrv:(int32_t)hrv;
+- (void)didReceiveRr:(uint64_t)timestamp rr:(int32_t)rr;
 - (void)didReceiveRespirationRate:(uint64_t)timestamp value:(uint32_t)value;
 - (void)wearStateDidChange:(WearState)state;
 - (void)didReceiveSoundVolume:(uint64_t)timestamp soundVolume:(uint16_t)soundVolume;
@@ -271,7 +271,7 @@ SWIFT_CLASS("_TtC9AidlabSDK6Aidlab")
 - (void)didReceivePastRespirationRate:(uint64_t)timestamp value:(uint32_t)value;
 - (void)didReceivePastActivity:(uint64_t)timestamp activity:(ActivityType)activity;
 - (void)didReceivePastSteps:(uint64_t)timestamp value:(uint64_t)value;
-- (void)didReceivePastHrv:(uint64_t)timestamp hrv:(int32_t)hrv;
+- (void)didReceivePastRr:(uint64_t)timestamp rr:(int32_t)rr;
 - (void)didReceivePastSoundVolume:(uint64_t)timestamp soundVolume:(uint16_t)soundVolume;
 - (void)didReceivePastPressure:(uint64_t)timestamp values:(int32_t * _Null_unspecified)values size:(int32_t)size;
 - (void)didReceivePastSoundFeatures:(float * _Null_unspecified)values size:(int32_t)size;
@@ -555,7 +555,7 @@ SWIFT_CLASS("_TtC9AidlabSDK6Aidlab")
 - (void)didReceiveOrientation:(uint64_t)timestamp roll:(float)roll pitch:(float)pitch yaw:(float)yaw;
 - (void)didReceiveBodyPosition:(uint64_t)timestamp bodyPosition:(BodyPosition)bodyPosition;
 - (void)didReceiveHeartRate:(uint64_t)timestamp heartRate:(int32_t)heartRate;
-- (void)didReceiveHrv:(uint64_t)timestamp hrv:(int32_t)hrv;
+- (void)didReceiveRr:(uint64_t)timestamp rr:(int32_t)rr;
 - (void)didReceiveRespirationRate:(uint64_t)timestamp value:(uint32_t)value;
 - (void)wearStateDidChange:(WearState)state;
 - (void)didReceiveSoundVolume:(uint64_t)timestamp soundVolume:(uint16_t)soundVolume;
@@ -578,7 +578,7 @@ SWIFT_CLASS("_TtC9AidlabSDK6Aidlab")
 - (void)didReceivePastRespirationRate:(uint64_t)timestamp value:(uint32_t)value;
 - (void)didReceivePastActivity:(uint64_t)timestamp activity:(ActivityType)activity;
 - (void)didReceivePastSteps:(uint64_t)timestamp value:(uint64_t)value;
-- (void)didReceivePastHrv:(uint64_t)timestamp hrv:(int32_t)hrv;
+- (void)didReceivePastRr:(uint64_t)timestamp rr:(int32_t)rr;
 - (void)didReceivePastSoundVolume:(uint64_t)timestamp soundVolume:(uint16_t)soundVolume;
 - (void)didReceivePastPressure:(uint64_t)timestamp values:(int32_t * _Null_unspecified)values size:(int32_t)size;
 - (void)didReceivePastSoundFeatures:(float * _Null_unspecified)values size:(int32_t)size;

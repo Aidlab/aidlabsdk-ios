@@ -85,7 +85,7 @@ public protocol InternalAidlabDelegate : AnyObject {
   @objc public func didReceiveOrientation(_ timestamp: Swift.UInt64, roll: Swift.Float, pitch: Swift.Float, yaw: Swift.Float)
   @objc public func didReceiveBodyPosition(_ timestamp: Swift.UInt64, bodyPosition: BodyPosition)
   @objc public func didReceiveHeartRate(_ timestamp: Swift.UInt64, heartRate: Swift.Int32)
-  @objc public func didReceiveHrv(_ timestamp: Swift.UInt64, hrv: Swift.Int32)
+  @objc public func didReceiveRr(_ timestamp: Swift.UInt64, rr: Swift.Int32)
   @objc public func didReceiveRespirationRate(_ timestamp: Swift.UInt64, value: Swift.UInt32)
   @objc public func wearStateDidChange(_ state: WearState)
   @objc public func didReceiveSoundVolume(_ timestamp: Swift.UInt64, soundVolume: Swift.UInt16)
@@ -108,7 +108,7 @@ public protocol InternalAidlabDelegate : AnyObject {
   @objc public func didReceivePastRespirationRate(_ timestamp: Swift.UInt64, value: Swift.UInt32)
   @objc public func didReceivePastActivity(_ timestamp: Swift.UInt64, activity: ActivityType)
   @objc public func didReceivePastSteps(_ timestamp: Swift.UInt64, value: Swift.UInt64)
-  @objc public func didReceivePastHrv(_ timestamp: Swift.UInt64, hrv: Swift.Int32)
+  @objc public func didReceivePastRr(_ timestamp: Swift.UInt64, rr: Swift.Int32)
   @objc public func didReceivePastSoundVolume(_ timestamp: Swift.UInt64, soundVolume: Swift.UInt16)
   @objc public func didReceivePastPressure(_ timestamp: Swift.UInt64, values: Swift.UnsafeMutablePointer<Swift.Int32>!, size: Swift.Int32)
   @objc public func didReceivePastSoundFeatures(_ values: Swift.UnsafeMutablePointer<Swift.Float>!, size: Swift.Int32)
@@ -142,7 +142,7 @@ public protocol AidlabSynchronizationDelegate : AnyObject {
   func didReceivePastRespiration(_ aidlab: IAidlab, timestamp: Swift.UInt64, values: [Swift.Float])
   func didReceivePastSkinTemperature(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.Float)
   func didReceivePastHeartRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, heartRate: Swift.Int32)
-  func didReceivePastHrv(_ aidlab: IAidlab, timestamp: Swift.UInt64, hrv: Swift.Int32)
+  func didReceivePastRr(_ aidlab: IAidlab, timestamp: Swift.UInt64, rr: Swift.Int32)
   func didReceiveUnsynchronizedSize(_ aidlab: IAidlab, unsynchronizedSize: Swift.UInt32, syncBytesPerSecond: Swift.Float)
   func didReceivePastRespirationRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.UInt32)
   func didReceivePastActivity(_ aidlab: IAidlab, timestamp: Swift.UInt64, activity: ActivityType)
@@ -180,7 +180,7 @@ public enum Signal : Swift.Int {
   case heartRate
   case healthThermometer
   case soundVolume
-  case hrv
+  case rr
   case pressure
   case soundFeatures
   case respirationRate
@@ -241,7 +241,7 @@ public protocol AidlabDelegate : AnyObject {
   func didReceiveOrientation(_ aidlab: IAidlab, timestamp: Swift.UInt64, roll: Swift.Float, pitch: Swift.Float, yaw: Swift.Float)
   func didReceiveBodyPosition(_ aidlab: IAidlab, timestamp: Swift.UInt64, bodyPosition: BodyPosition)
   func didReceiveHeartRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, heartRate: Swift.Int32)
-  func didReceiveHrv(_ aidlab: IAidlab, timestamp: Swift.UInt64, hrv: Swift.Int32)
+  func didReceiveRr(_ aidlab: IAidlab, timestamp: Swift.UInt64, rr: Swift.Int32)
   func didReceiveRespirationRate(_ aidlab: IAidlab, timestamp: Swift.UInt64, value: Swift.UInt32)
   func didReceiveSoundVolume(_ aidlab: IAidlab, timestamp: Swift.UInt64, soundVolume: Swift.UInt16)
   func didDetect(_ aidlab: IAidlab, exercise: Exercise)
