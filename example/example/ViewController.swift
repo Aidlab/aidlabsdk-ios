@@ -123,7 +123,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func didReceiveHeartRate(_ aidlab: IAidlab, timestamp: UInt64, heartRate: Int32) { }
     
-    func didReceiveHrv(_ aidlab: IAidlab, timestamp: UInt64, hrv: Int32) { }
+    func didReceiveRr(_ aidlab: IAidlab, timestamp: UInt64, rr: Int32) { }
     
     func didReceiveRespirationRate(_ aidlab: IAidlab, timestamp: UInt64, value: UInt32) { }
     
@@ -146,6 +146,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func didDetectUserEvent(_ aidlab: IAidlab, timestamp: UInt64) { }
     
     func didReceiveSignalQuality(_ timestamp: UInt64, value: Int32) { }
-    
 }
 

@@ -7,6 +7,6 @@ target 'example' do
 
   # Pods for example
 
-  pod 'AidlabSDK', '1.0.4'
+  pod 'AidlabSDK'
 
 end
