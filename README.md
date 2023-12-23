@@ -1,3 +1,5 @@
+> **Deprecated**: This repository is no longer actively maintained. Please use the [Aidlab Apple SDK](https://github.com/Aidlab/aidlab-apple-sdk) available through Swift Package Manager for all Apple platforms. For more information and to integrate the SDK, visit [installation guide](https://www.aidlab.com/developer/docs/ios.html).
+
 # Installation
 
 ## CocoaPods
